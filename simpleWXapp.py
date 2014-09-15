@@ -17,6 +17,7 @@ def main():
 	app.SetTopWindow(window)
 
 	if debug:
+		# Show pyCrust when in debug mode
 		from wx import py
 		crust = py.crust.CrustFrame(window)
 		del py
