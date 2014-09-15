@@ -42,11 +42,11 @@
             <property name="id">wxID_ANY</property>
             <property name="maximum_size"></property>
             <property name="minimum_size"></property>
-            <property name="name">simpleWXApp-window</property>
+            <property name="name">simpleWXAppWindow</property>
             <property name="pos"></property>
             <property name="size">193,147</property>
             <property name="style">wxDEFAULT_FRAME_STYLE</property>
-            <property name="subclass">AppControl; </property>
+            <property name="subclass">; </property>
             <property name="title"></property>
             <property name="tooltip"></property>
             <property name="window_extra_style"></property>
@@ -145,7 +145,7 @@
                         <property name="show">1</property>
                         <property name="size"></property>
                         <property name="style"></property>
-                        <property name="subclass"></property>
+                        <property name="subclass">myButtonSubclass; AppControls</property>
                         <property name="toolbar_pane">0</property>
                         <property name="tooltip"></property>
                         <property name="validator_data_type"></property>
